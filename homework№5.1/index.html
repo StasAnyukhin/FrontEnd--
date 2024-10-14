@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title> Онлайн библиотека </title>
+        <link rel="icon" href="img5/i.webp" />
+</head>
+<body class="body">
+    <button class="more">Редактирование книг</button>
+<div class="modal">
+    <div class="modal-header">
+        <span class="close">x</span>
+        <h2>Редактирование книг</h2>
+    </div>
+    <div class="modal-body">
+
+    </div>
+    <div class="modal-footer">
+        <button onclick="closeModal()">Отменить</button>
+    </div>
+</div>
+    <header>
+        <h1 class="headline">Онлайн библиотека</h1>
+    </header>
+    <hr>
+    <h2 class="toAdd"> Добавить книгу </h2>
+    <br>
+    <div class="one">
+        <label for="nameBook">Название книги:</label>
+        <input type="text" id="nameBook" placeholder="Название книги"/>
+    </div>
+    <div class="two">
+        <label for="author">Автор:</label>
+        <input type="text" id="author" placeholder="Автор"/>
+    </div>
+    <div class="three">
+        <label for="year">Год издания:</label>
+        <input type="number" id="year" placeholder="Год издания"/>
+    </div>
+    <div class="four">
+        <label for="status">Жанр:</label>
+        <input type="text" id="genre" placeholder="Жанр"/>
+    </div>
+    <div class="five">
+        <label for="author">Статус:</label>
+        <input type="text" id="status" placeholder="Статус"/>
+    </div>
+    <button class="btn" onclick="addBook()"> Добавить книгу </button>
+    <div class="list">
+    <ol id="listBook"> </ol>
+    </div>
+    <button class="update" type="button" onclick="window.location.reload()">Обновления страницы</button>
+    <button class="dlt" onclick="deleteAll()">Удаление всех книг</button>
+
+    <script src="./script.js" > </script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+
+.toAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: rgb(65, 8, 8);
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(28, 198, 155);
+    margin: 5px;
+    padding: 10px;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 87, 84);
+    margin: 5px;
+    padding: 10px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(142, 11, 11);
+    margin: 5px;
+    padding: 10px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(81, 24, 203);
+    margin: 5px;
+    padding: 10px;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(165, 113, 45);
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgb(110, 207, 46);
+    border: none;
+    border-radius: 40px;
+}
+
+
+.update {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    padding: 16px;
+    background-color:rgb(127, 119, 212);
+    border-radius: 0 30px 0 30px ;
+}
+
+.dlt {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    padding: 16px;
+    background-color:rgb(186, 221, 91);
+    border-radius: 20px 10px 20px 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    margin: 10px;
+    padding: 20px;
+}
+
+.body {
+    background-color: rgb(254, 178, 229);
+}
+
+.more {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.19);
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: black;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.modal {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    background-color: rgba(0,0,0,0.19);
+    padding: 0;
+    border: 5px solid black;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    display: none;
+}
+
+.modal-animation {     animation-name: animatetop;
+    animation-duration: 0.8s
+}
+
+@keyframes animatetop {
+    from {top: 0px; opacity:0}
+    to {top: 200px; opacity:1}
+}
